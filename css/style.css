@@ -2,6 +2,7 @@
 *{
   font-family: verdana,sans-serif;
 }
+/* header */
 .header {
   width: 100%;
   text-align: center;
@@ -13,7 +14,7 @@
 #head2 {
   margin: auto;
 }
-
+/* body */
 .body {
   display: block;
 }
@@ -21,7 +22,7 @@
 #head2 {
   text-align: center;
 }
-
+/* main container */
 .store {
   width: 95%;
   display: flex;
@@ -34,7 +35,7 @@
 .img {
   padding: 3%;
 }
-
+/* cards */
 .program {
   box-shadow: 2px 2px 2px 2px black;
   text-align: center;
@@ -48,19 +49,19 @@
   font-size: 2em;
   text-decoration: none;
 }
-
+/* footer */
 #footer {
   padding: 1%;
   text-align: center;
   box-shadow: 1px 1px 1px 1px black;
 }
-
+/* media queries for mobile_view */
 @media(min-device-width:320px) and (max-device-width:480px) {
   .program {
     width: 100%;
   }
 }
-
+/* media queries for tab_view */
 @media(min-device-width:481px) and (max-device-width:780px) {
   .program {
     width: 40%;
