@@ -1,12 +1,13 @@
-
-*{
-  font-family: verdana,sans-serif;
+* {
+  font-family: verdana, sans-serif;
 }
+
 /* header */
 .header {
   width: 100%;
+  background:  #e5e8e8;
   text-align: center;
-  box-shadow: 2px 2px 2px 2px blue;
+  box-shadow: 2px 2px 2px 2px #aaa;
   display: flex;
 }
 
@@ -14,6 +15,7 @@
 #head2 {
   margin: auto;
 }
+
 /* body */
 .body {
   display: block;
@@ -22,6 +24,7 @@
 #head2 {
   text-align: center;
 }
+
 /* main container */
 .store {
   width: 95%;
@@ -34,10 +37,15 @@
 
 .img {
   padding: 3%;
+  width: 6%;
 }
+.progImages{
+  width: 40%;
+}
+
 /* cards */
 .program {
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 1px 2px 1px #aaa;
   text-align: center;
   width: 30%;
   margin-bottom: 4%;
@@ -49,37 +57,43 @@
   font-size: 2em;
   text-decoration: none;
 }
+
 /* footer */
 #footer {
   padding: 1%;
+  background: #000;
+  color: #fff;
   text-align: center;
   box-shadow: 1px 1px 1px 1px black;
 }
+
 /* media queries for mobile_view */
-@media(min-device-width:320px) and (max-device-width:480px) {
-  .program {
+@media only screen and (max-width:480px) {
+  .store{
     width: 100%;
   }
+  .program{
+    width: 100%;
+    background:  #fef5e7;
+  }
+  .para{
+    text-align: left;
+  }
 }
-/* media queries for tab_view */
-@media(min-device-width:481px) and (max-device-width:780px) {
-  .program {
+
+/* Media Queries for Tab view */
+
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .store{
+    width: 100%;
+    background: #fffa;
+  }
+  .program{
     width: 40%;
-  }
+;
 
-  #head2 {
-    margin: 5% 12%;
   }
-
-  .header {
-    border-radius: 1%;
-  }
-
-  .c,
-  .c++,
-  .java,
-  .python {
-    width: 30%;
-    margin: 2% 0%;
+  .para{
+    text-align: left;
   }
 }
