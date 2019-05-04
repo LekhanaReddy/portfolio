@@ -97,7 +97,10 @@
 
   .program {
     width: 40%;
-    ;
+  }
+
+  .img {
+    width: 50%;
   }
 
   .para {
