@@ -5,7 +5,7 @@
 /* header */
 .header {
   width: 100%;
-  background:  #e5e8e8;
+  background: #e5e8e8;
   text-align: center;
   box-shadow: 2px 2px 2px 2px #aaa;
   display: flex;
@@ -39,7 +39,8 @@
   padding: 3%;
   width: 6%;
 }
-.progImages{
+
+.progImages {
   width: 40%;
 }
 
@@ -69,31 +70,37 @@
 
 /* media queries for mobile_view */
 @media only screen and (max-width:480px) {
-  .store{
+  .store {
     width: 100%;
   }
-  .program{
-    width: 100%;
-    background:  #fef5e7;
+
+  .img {
+    width: 50%;
   }
-  .para{
+
+  .program {
+    width: 100%;
+    background: #fef5e7;
+  }
+
+  .para {
     text-align: left;
   }
 }
 
 /* Media Queries for Tab view */
-
 @media only screen and (min-width:481px) and (max-width:780px) {
-  .store{
+  .store {
     width: 100%;
     background: #fffa;
   }
-  .program{
-    width: 40%;
-;
 
+  .program {
+    width: 40%;
+    ;
   }
-  .para{
+
+  .para {
     text-align: left;
   }
 }
